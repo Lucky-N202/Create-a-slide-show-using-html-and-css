@@ -1,0 +1,41 @@
+  <body>
+      
+    <div>
+    <form>
+        <div class="submit-form">
+            <div *ngIf="!submitted">
+                <h3>Member Details</h3>
+                <div class="form-group">
+                    <label for="title">Full Name</label>
+                    <input type="text" 
+                    class="form-control" 
+                    id="title" 
+                    placeholder="Enter Full Name" 
+                    required 
+                    [(ngModel)]="tutorial.title" 
+                    name="title" />
+
+                    <label for="description">Position</label>
+                    <input type="text" class="form-control" id="description" placeholder="Enter Position"
+                    required [(ngModel)]="tutorial.description" name="description" />
+                </div>
+                    <button class="btn btn-primary" (click) = "saveTutorial()" routerLink="/tutorials"> Add Details </button>
+            </div>
+
+            <div *ngIf = "submitted"> 
+                <!-- <h4></h4>
+                <button class = "btn btn-success" (click) = "newTutorial()"> Add </button> -->
+            </div>
+        </div>
+    </form>
+  </div>
+ </body>
+ <footer class=" text-center position" id="footer">
+    <!-- <div class="container"> -->
+      <div class="details">
+        <p class="lead">Brought to you by the Spaza Developers &copy; 2022</p>
+      </div>
+    <!-- </div> -->
+  </footer>
+
+ 

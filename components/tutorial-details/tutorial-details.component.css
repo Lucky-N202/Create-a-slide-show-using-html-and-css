@@ -1,0 +1,16 @@
+.edit-form
+{
+    max-width: 400px;
+    margin: auto;
+}
+body{
+    display:flow-root,inline-block;
+    padding: 145px;
+    align-items:stretch;
+    background: linear-gradient( -45deg,rgba(224, 215, 215, 0.227), rgb(143, 115, 115) ) url();
+    background-size:  100%;
+    margin-left:-22%;
+    margin-right: -14.9%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    }

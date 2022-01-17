@@ -1,0 +1,44 @@
+.list {
+    text-align: left;
+    max-width: 750px;
+    margin: auto;
+  }
+
+  .border{
+    padding: 20px;
+    align-items: center;
+    /* margin-top: 1rem; */
+    padding-bottom: 3.5rem;
+    padding-top: 2rem;
+
+  }
+
+  body{
+    display:flow-root,inline-block;
+    padding: 145px;
+    align-items:stretch;
+    background-size:  100%;
+    margin-left:-22%;
+    
+    margin-right: -14.9%;
+    margin-top: -2%;
+    margin-bottom: 5%;
+    
+  }
+  
+  .btn{
+    margin-right: 10px;
+    position:relative;
+    float: right;
+  }
+  
+  .fa{
+    margin-right: 10px;
+    float: right;
+  }
+  
+  /* .btnSearch{
+    float: left;
+    position: relative;
+    width: 100px;
+  } */
